@@ -11,7 +11,7 @@ export const Task = ({ task, delTask, updateTasks, completeTask }) => {
   };
   return (
     <div style={{ width: "800px", margin: "auto" }}>
-      {isEdit ? (
+      {isEdit ? ( 
         <div className="task-update">
           <form onSubmit={handleUpdate}>
             <input

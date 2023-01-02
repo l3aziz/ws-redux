@@ -15,6 +15,7 @@
 }
 .form-container {
   text-align: center;
+  padding-top:20%;
 }
 .form-container form {
   display: flex;
@@ -32,4 +33,11 @@
 }
 .search-tasks input {
   margin-left: 8px;
+}
+.App {
+  background-image: url(https://i.pinimg.com/originals/91/fc/54/91fc549c130f969b61afa9065ad2132d.gif);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  min-height: 720px;
+  padding: auto;
 }
